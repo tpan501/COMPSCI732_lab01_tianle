@@ -1,0 +1,54 @@
+
+.toDoComplete{
+    background-color: aquamarine;
+  }
+.toDoIncomplete{
+    background-color: lightcoral;
+  }
+  
+  ul{
+    padding: 0%;
+    padding-right: 20px;
+
+  }
+  li {
+    display: flex;
+    justify-content: space-between; /* 使内容分散对齐，其中主项（描述）在左，次项（按钮）在右 */
+    align-items: center; /* 垂直居中对齐子元素 */
+    padding: 10px; /* 给点内边距以便有更好的布局和观感 */
+    
+  }
+
+  .oneToDoComplete, .oneToDoIncomplete{
+    display:flex;
+    justify-content: space-between; /* 使内容分散对齐，其中主项（描述）在左，次项（按钮）在右 */
+    align-items: center; /* 垂直居中对齐子元素 */
+    padding: 10px; 
+
+    margin: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+.oneToDoComplete{
+    background-color: rgb(67, 177, 255);
+  }
+.oneToDoIncomplete{
+        background-color: rgb(241, 96, 13);
+    }
+  
+  .removeButton {
+    margin-left: auto; /* 自动应用左边距，推送按钮到右边 */
+    padding: 5px 10px; /* 按钮的内边距 */
+    cursor: pointer; /* 鼠标悬停时显示指针，表明这是可点击的 */
+    font-weight: bold; /* 加粗字体 */
+    border-color: black;
+    border-radius: 5px; /* 圆角 */
+    background-color: rgb(238, 235, 235); /* 背景颜色 */
+  }
+  
+  .toDoComplete, .toDoIncomplete {
+    width: 100%; /* 确保li充满整个容器宽度，为flex布局提供空间 */
+  }
+  

@@ -1,0 +1,27 @@
+/* Global CSS styles go here. */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*{
+  margin: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.sectionDiv{
+  box-shadow: 0 4px 8px 0 rgb(92, 91, 91);
+  transition: 0.3s;
+  padding:20px;
+  margin:20px;
+}
